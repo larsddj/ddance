@@ -288,7 +288,7 @@ if HasData() then
 	-- but behind all other underlay elements (like danger and subtractive scoring and etc.)
 	local graph_mask = Def.Quad{
 		InitCommand=function(self)
-			self:zoomto(_screen.w/2, _screen.h)
+			self:zoomto(_screen.w/2+1, _screen.h)
 				:x( WideScale(160, 214) + _screen.cx * (player==PLAYER_1  and -1 or 1) )
 				:y(-48)
 				:diffuse(color("#1E282F"))
