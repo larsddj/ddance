@@ -168,7 +168,7 @@ if HasData() then
 		InitCommand=function(self)
 			self:zoomto(_screen.w/2,height)
 				:align(0,0)
-				:diffuse(color("#1E282F"))
+				:diffuse(color("#000000"))
 
 			if (PREFSMAN:GetPreference("Center1Player") and IsUsingWideScreen()) then
 				-- 16:9 aspect ratio (approximately 1.7778)
