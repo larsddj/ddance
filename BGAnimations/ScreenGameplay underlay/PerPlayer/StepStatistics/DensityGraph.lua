@@ -291,7 +291,7 @@ if HasData() then
 			self:zoomto(_screen.w/2, _screen.h)
 				:x( WideScale(160, 214) + _screen.cx * (player==PLAYER_1  and -1 or 1) )
 				:y(-48)
-				:diffuse( Color.Black )
+				:diffuse(color("#1E282F"))
 
 
 			-- handle Center1Player begrudgingly with clumsy code
