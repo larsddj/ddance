@@ -9,7 +9,7 @@ elseif not PREFSMAN:GetPreference("EventMode") then
 	
 	text = THEME:GetString("Stage", "Stage") .. " " .. tostring(SL.Global.Stages.PlayedThisGame + 1)
 else
-	text = THEME:GetString("Stage", "Event")
+	-- when in event mode, ignore the text instead, it gets in the way of the density graph
 end
 
 
