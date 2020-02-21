@@ -4,7 +4,7 @@ local af = Def.ActorFrame{}
 
 af[#af+1] = Def.Quad{
 	InitCommand=function(self)
-		self:diffuse(Color.Black):diffusealpha(0.98)
+		self:diffuse(color("#0A141B"))
 			:zoomto(_screen.w/2,_screen.h)
 		
 
