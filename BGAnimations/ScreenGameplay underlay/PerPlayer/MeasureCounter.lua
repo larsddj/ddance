@@ -91,7 +91,7 @@ local af = Def.ActorFrame{
 	end
 }
 
-af[#af+1] = LoadFont("_wendy small")..{
+af[#af+1] = LoadFont("Work")..{
 	InitCommand=function(self)
 		MeasureCounterBMT = self
 
