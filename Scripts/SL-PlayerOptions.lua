@@ -127,7 +127,7 @@ local Overrides = {
 	},
 	-------------------------------------------------------------------------
 	BackgroundFilter = {
-		Values = function() return { 'Off','Dark','Darker','Darkest' } end,
+		Values = function() return { 'Off','fifty','sixty','seventy','seventyFive','eighty','eightyFive','ninety','ninetyFive','noBG' } end,
 	},
 	-------------------------------------------------------------------------
 	Mini = {

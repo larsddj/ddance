@@ -5,9 +5,15 @@ local mods = SL[ ToEnumShortString(player) ].ActiveModifiers
 if mods.BackgroundFilter == "Off" then return end
 
 local FilterAlpha = {
-	Dark = 0.5,
-	Darker = 0.75,
-	Darkest = 0.95
+	fifty = 0.5,
+	sixty = 0.60,
+	seventy = 0.7,
+	seventyFive = 0.75,
+	eighty = 0.80,
+	eightyFive = 0.85,
+	ninety = 0.90,
+	ninetyFive= 0.95,
+	noBG = 1
 }
 
 local filter = Def.ActorFrame{
