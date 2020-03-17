@@ -1,7 +1,7 @@
 local player = ...
 local pn = ToEnumShortString(player)
 
-local judgments = { "W1", "W2", "W3", "W4", "W5", "Miss" }
+local judgments = { "W1", "W2", "W3", "W4", "W5", "Miss", "MissBecauseHeld" }
 local TNSNames = {}
 
 -- It's looking at what GameMode is happening here. Please to fix later.

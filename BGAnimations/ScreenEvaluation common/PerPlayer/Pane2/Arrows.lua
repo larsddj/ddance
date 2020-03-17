@@ -16,7 +16,7 @@ local columns = {
 local box_width = 230
 local column_width = box_width/#columns[game]
 
-local judgments = { "W1", "W2", "W3", "W4", "W5", "Miss" }
+local judgments = { "W1", "W2", "W3", "W4", "W5", "Miss", "MissBecauseHeld" }
 
 -- need to store the number of columns PRIOR to looping
 -- otherwise we enter an infinite loop because the upper bound keeps growing!
